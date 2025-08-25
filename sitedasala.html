@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head><link rel="stylesheet" href="estilo.css">
+    <title>Loja de Celulares</title>
+    <!-- Importando o CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
 <body>
-    <nav>
-        <div class="logo">📱 celulares da china</div>
-        <ulclass="menu">
-            <li><a href="https://www.youtube.com/">inicos</a></li>
-            <li><a href="#">produtos</a></li>
-            <li><a href="#">contatos</a></li>
 
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">📱 CellShop</div>
+        <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="contatodasala.html">Contato</a></li>
         </ul>
     </nav>
-    <selection class="produtos">
-        <h1>nossos celulares</h1>
-        <div>class="<cards-container>
-            <div>class="card</div>
-            <img src="imgs\cel1.webp">
-            <h2>iphone 14</h2>
-            <p>R$ 5.500,00</p>
-            <button onclik= "comprar('iphone 14')">comprar</button>
-        </div>
-         <div>class="card</div>
-            <img src="https://www.estadao.com.br/recomenda/tech/celulares-e-comunicacao/iphone-ou-galaxy-qual-celular-e-mais-vantajoso/?srsltid=AfmBOorOX0EwaoLjarH1mEfLGLZM7SvQclRkFqG_HII2TnaUtl1jJGXR">
-            <h2>iphone 14</h2>
-            <p>R$ 5.500,00</p>
-            <button onclik= "comprar('iphone 14')">comprar</button>
-    </selection>
-    
 
+    <!-- Seção de produtos -->
+    <section class="produtos">
+        <h1>Nossos Celulares</h1>
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="imgs\cel3.jfif" alt="Celular 1">
+                <h2>iPhone 14</h2>
+                <p>R$ 5.500,00</p>
+                <button onclick="comprar('iPhone 14')">Comprar</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="C:\Users\PROFESSOR\Desktop\teste\imgs\cel3.jfif" alt="Celular 2">
+                <h2>Samsung Galaxy S23</h2>
+                <p>R$ 4.200,00</p>
+                <button onclick="comprar('Samsung Galaxy S23')">Comprar</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="C:\Users\PROFESSOR\Desktop\teste\imgs\cel3.jfif" alt="Celular 3">
+                <h2>Motorola Edge 40</h2>
+                <p>R$ 2.800,00</p>
+                <button onclick="comprar('Motorola Edge 40')">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importando o JS -->
+    <script src="script.js"></script>
 </body>
 </html>
